@@ -1,4 +1,4 @@
-sed -i "s/us.archive.ubuntu.com/kambing.ui.ac.id/g" /etc/apt/sources.list
+sed -i "s/archive.ubuntu.com/kambing.ui.ac.id/g" /etc/apt/sources.list
 apt-get update
 apt-get install -y wget git-core
 wget https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz -O /home/ubuntu/go.tar.gz
