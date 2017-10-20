@@ -22,6 +22,12 @@ vagrant ssh server
 vagrant ssh client
 ```
 
+You will also install `tshark` can be on either client on server (too bad I can't find how to install it noninteractively)
+
+```
+sudo apt-get install tshark
+```
+
 ## Using the server
 
 You can just run
